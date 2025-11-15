@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Wireframe Demo</title>
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f9f9f9;
+}
+.topbar, .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 20px;
+    background:#e0e0e0;
+    border-bottom:1px solid #ccc;
+}
+.topbar span, .navbar a{
+    font-size:12px;
+}
+.navbar a{
+    margin-left:10px;
+    color:#555;
+    text-decoration:none;
+}
+.navbar a:hover{color:#000;}
+
+/* Intro / Overview Section */
+.box1{
+    text-align:center;
+    padding:30px 10px;
+}
+.box1 h3{
+    margin-bottom:20px;
+}
+.overview{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.overview .skill{
+    width:100px;
+    height:100px;
+    border:2px dashed #bbb;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:12px;
+    color:#555;
+}
+
+/* Portfolio Section */
+.box2{
+    text-align:center;
+    padding:30px 10px;
+}
+.box2 h5{
+    margin-bottom:20px;
+    font-size:16px;
+}
+.portfolio{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.portfolio .item{
+    width:180px;
+    height:120px;
+    border:2px dashed #bbb;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:12px;
+    color:#555;
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+    <span>Portfolio Wireframe Demo</span>
+    <span>Contact: demo@example.com</span>
+</div>
+
+<div class="navbar">
+    <span class="logo">LOGO</span>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
+
+<div class="box1">
+    <h3>Overview / Skills</h3>
+    <div class="overview">
+        <div class="skill">Web Design</div>
+        <div class="skill">UI/UX</div>
+        <div class="skill">Front-End</div>
+        <div class="skill">Back-End</div>
+    </div>
+</div>
+
+<div class="box2">
+    <h5>Recent Projects</h5>
+    <div class="portfolio">
+        <div class="item">Project 1</div>
+        <div class="item">Project 2</div>
+        <div class="item">Project 3</div>
+        <div class="item">Project 4</div>
+    </div>
+</div>
+
+</body>
+</html>
